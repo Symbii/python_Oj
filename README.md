@@ -6,7 +6,7 @@
     	for word in words:
       	w = set(word.lower())
 		if w.issubset(line1) or w.issubset(line2) or w.issubset(line3):
-        ret.append(word)
+        	ret.append(word)
 
 - reverse_words
  	'''  ' '.join(map(lambda x:x[::-1],s.split())) '''
