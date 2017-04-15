@@ -1,5 +1,5 @@
 **# python_Leetcode_oj**
-*keyboard_row
+* Keyboard row
 
 ```python
 line1, line2, line3 = set('qwertyuiop'), set('asdfghjkl'), set('zxcvbnm')
@@ -10,12 +10,12 @@ for word in words:
         ret.append(word)
 ```
 
-*reverse_words
+* Reverse_words
 ```python
 ' '.join(map(lambda x:x[::-1],s.split()))
 ```
 
-*next_greater_element
+* Next greater element
 ```python  	
 for i in num2:
     while len(temp) and temp[-1]<i:
