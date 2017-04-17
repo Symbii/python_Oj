@@ -32,10 +32,10 @@ for x in num1:
 ```python
 for x in nums:
     if x==1:
-    counts=counts+1
+     counts=counts+1
 elif x==0:
-	counts=0
+    counts=0
 if maxcounts<counts:
-	maxcounts=counts
+    maxcounts=counts
 return maxcounts
 ``` 
