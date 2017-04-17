@@ -38,4 +38,16 @@ for x in nums:
     if maxcounts<counts:
         maxcounts=counts
 return maxcounts
-``` 
+```
+* Add Digits<br>
+```python
+    method: a. N=(a[0]*10^0+a[1]*10^1+a[2]*10^2+a[3]*10^3+.....)
+
+            b. 10   % 9 = 1
+               100  % 9 = 1
+               1000 % 9 = 1
+               ...
+            c. N % 9 = a[0]+a[1]+a[2]+a[3]+... = Digits_add_result 
+    
+    code: num % 9 if num % 9 else 9 if num else 0
+```
