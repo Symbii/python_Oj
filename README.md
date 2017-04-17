@@ -51,3 +51,14 @@ return maxcounts
     
     code: num % 9 if num % 9 else 9 if num else 0
 ```
+* Find Difference
+```python
+def finddiff(s,t):
+    slist=list(s)
+    tlist=list(t)
+    slist.sort()
+    tlist.sort()
+    for x in slist:
+        tlist.pop(tlist.index(x))
+    return ''.join(tlist)
+```
