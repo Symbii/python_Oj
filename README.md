@@ -28,3 +28,14 @@ for x in num1:
     else :
         result.append(-1)
 ```
+* Find Max Consective Ones
+```python
+for x in nums:
+    if x==1:
+    counts=counts+1
+elif x==0:
+	counts=0
+if maxcounts<counts:
+	maxcounts=counts
+return maxcounts
+``` 
