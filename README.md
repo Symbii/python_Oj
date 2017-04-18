@@ -62,3 +62,14 @@ def finddiff(s,t):
         tlist.pop(tlist.index(x))
     return ''.join(tlist)
 ```
+* Invert Binary Tree
+```python
+    def invertTree(self, root):
+        """
+        :type root: TreeNode
+        :rtype: TreeNode
+        """
+        if root:
+            root.right, root.left = self.invertTree(root.left), self.invertTree(root.right)
+        return root
+```
