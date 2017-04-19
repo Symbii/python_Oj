@@ -73,3 +73,7 @@ def finddiff(s,t):
             root.right, root.left = self.invertTree(root.left), self.invertTree(root.right)
         return root
 ```
+* Find Longgest Uncommon Sub
+```python
+    return -1 if a==b else max(len(a),len(b))
+```
