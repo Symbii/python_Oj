@@ -24,8 +24,8 @@ if __name__ == '__main__':
     root.left.right = TreeNode(5)
     root.right.left = TreeNode(6)
     root.right.right = TreeNode(7)
-    print "before:" ,root.val, root.left.val, root.right.val, root.left.left.val, root.left.right.val, root.right.left.val, root.right.right.val
+    print ("before:" ,root.val, root.left.val, root.right.val, root.left.left.val, root.left.right.val, root.right.left.val, root.right.right.val)
     invert_tree = Solution()
     invert_tree.invertTree(root)
-    print "after :" ,root.val,root.left.val,root.right.val,root.left.left.val,root.left.right.val,root.right.left.val,root.right.right.val
+    print ("after :" ,root.val,root.left.val,root.right.val,root.left.left.val,root.left.right.val,root.right.left.val,root.right.right.val)
 

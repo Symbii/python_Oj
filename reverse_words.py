@@ -6,5 +6,5 @@ if __name__ == '__main__':
 	s=sys.argv
 	s.pop(0)
 	for x in s:
-		print reverse_words(x),
+		print (reverse_words(x))
 	

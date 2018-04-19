@@ -8,4 +8,4 @@ def finddiff(s,t):
         tlist.pop(tlist.index(x))
     return ''.join(tlist)
 if __name__ == '__main__':
-     print finddiff("abcd","abcdef")
+     print (finddiff("abcd","abcdef"))

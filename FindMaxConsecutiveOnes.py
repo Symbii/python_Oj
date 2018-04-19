@@ -12,4 +12,4 @@ def FindMaxConsecutiveOnes(nums):
             maxcounts=counts
     return maxcounts
 if __name__ == '__main__' :
-    print FindMaxConsecutiveOnes([1,1,1,0,1,0,1,1])
+    print (FindMaxConsecutiveOnes([1,1,1,0,1,0,1,1]))

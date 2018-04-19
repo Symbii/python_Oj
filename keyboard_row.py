@@ -30,4 +30,4 @@ if __name__ == '__main__':
     list = sys.argv
     list.pop(0)
     res = findwords(list)
-    print res
+    print (res)
