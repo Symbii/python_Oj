@@ -37,7 +37,7 @@ def insert_sort(listarry):
     return listarry
 
 if __name__ == '__main__':
-    arry = [-1, 2, -3,-10,-199 ,199,4, 5, 7, 6]
+    arry = [-1, 2, 41,-3,-10,-199 ,199,4, 5, 7, 6]
     print(insert_sort(arry))
     print(quick_sort(arry))
     print(select_sort(arry))
