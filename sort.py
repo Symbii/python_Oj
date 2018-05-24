@@ -11,7 +11,7 @@ def select_sort(listarry):
     for i in range(len(listarry)):
         temp = i
         for j in range(i+1, len(listarry)):
-            if listarry[i] > listarry[j]:
+            if listarry[temp] > listarry[j]:
                 temp = j
         listarry[i], listarry[temp] = listarry[temp], listarry[i]
     return listarry
@@ -37,7 +37,7 @@ def insert_sort(listarry):
     return listarry
 
 if __name__ == '__main__':
-    arry = [1, 2, 3, 4, 5, 7, 6]
+    arry = [-1, 2, -3,-10,-199 ,199,4, 5, 7, 6]
     print(insert_sort(arry))
     print(quick_sort(arry))
     print(select_sort(arry))
