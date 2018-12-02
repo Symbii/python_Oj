@@ -28,7 +28,7 @@ def Subarray_Sum(lst, s):
             num = 1
         else:
             num += 1
-    count.append(num)
+    zero_cnt.append(num)
     # 计算
     cnt = 0
     if s == 0:
