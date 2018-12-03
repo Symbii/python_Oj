@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+#首先找到最高bit 1：然后构造全1，然后求差
 def find_complete(num):
     tmp = num
     maxbits = 0
