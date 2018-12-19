@@ -28,6 +28,7 @@ def Subarray_Sum(lst, s):
             num = 1
         else:
             num += 1
+    #最后一个1后面有num-1个0
     zero_cnt.append(num)
     # 计算
     cnt = 0
